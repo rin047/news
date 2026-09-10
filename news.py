@@ -15,7 +15,7 @@ st.markdown("已完美解決 GitHub 字型下載與 ReportLab 字型家族對應
 st.markdown("---")
 
 font_path = "NotoSansTC-VariableFont_wght.ttf"
-github_font_url = "https://github.com/google/fonts/raw/main/ofl/notosanstc/NotoSansTC-VariableFont_wght.ttf"
+github_font_url = "https://github.com/rin047/news/raw/refs/heads/main/NotoSansTC-VariableFont_wght.ttf"
 
 # 程式啟動時先嘗試下載一次
 if not os.path.exists(font_path):
