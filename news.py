@@ -63,7 +63,7 @@ selected_categories = st.multiselect(
     default=default_cats
 )
 
-article_count = st.slider("📊 目標成功抓取的總文章篇數：", min_value=3, max_value=12, value=6)
+article_count = st.slider("📊 目標成功抓取的總文章篇數：", min_value=3, max_value=25, value=6)
 custom_book_title = st.text_input("📄 自訂整本 PDF 大標題（選填）：", placeholder="跨領域多元閱讀精選教材")
 
 def fetch_web_content(url):
