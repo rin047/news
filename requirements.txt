@@ -1,0 +1,6 @@
+streamlit
+trafilatura
+beautifulsoup4
+requests
+reportlab
+feedparser
